@@ -13,6 +13,9 @@ class Anagram
     array.each do |items|
       items.downcase.split(",").sort
     end
-    
+    if check_array == items
+      true
+    end
+  end
 
 end
