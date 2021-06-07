@@ -6,4 +6,6 @@ class Anagram
     @words = words
   end
 
+  
+
 end
