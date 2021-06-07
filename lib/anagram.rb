@@ -10,6 +10,6 @@ class Anagram
 
   def match(array)
     array.each do |item|
-      item.downcase.split.sort =
+      item.downcase.split.sort = @word.downcase.split.sort
 
 end
