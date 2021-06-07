@@ -4,18 +4,12 @@ class Anagram
 
   check_array = []
 
-  def initialize(words)
-    @words = words
-    check_array << words.downcase.split(",").sort
+  def initialize(word)
+    @word = word
   end
 
   def match(array)
-    array.each do |items|
-      items.downcase.split(",").sort
-    end
-    if check_array == items
-      true
-    end
-  end
+    array.each do |item|
+      item.downcase.split.sort =
 
 end
