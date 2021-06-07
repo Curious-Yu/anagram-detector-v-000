@@ -1,4 +1,5 @@
 # Your code goes here!
-class Argument
+class Anagram
+  
 
 end
